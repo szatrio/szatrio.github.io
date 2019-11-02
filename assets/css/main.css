@@ -447,7 +447,7 @@ ul.icons {
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon:before {
-      font-size: 3.25em; }
+      font-size: 200%; }
     ul.icons li a {
       color: inherit; }
     
