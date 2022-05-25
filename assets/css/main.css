@@ -809,42 +809,6 @@ button,
   #header {
     margin: 0 0 1em 0; } }
 
-/* Signup Form */
-#signup-form {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  position: relative; }
-  #signup-form input[type="text"],
-  #signup-form input[type="password"],
-  #signup-form input[type="email"] {
-    width: 18em; }
-  #signup-form > * {
-    margin: 0 0 0 1em; }
-  #signup-form > :first-child {
-    margin: 0 0 0 0; }
-  @media screen and (max-width: 480px) {
-    #signup-form {
-      -moz-flex-direction: column;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column; }
-      #signup-form input[type="type"],
-      #signup-form input[type="password"],
-      #signup-form input[type="email"] {
-        width: 100%; }
-      #signup-form > * {
-        margin: 1.25em 0 0 0; }
-      #signup-form .message {
-        bottom: -1.5em;
-        font-size: 0.9em;
-        height: 1em;
-        left: 0;
-        line-height: inherit;
-        margin-top: 0;
-        position: absolute; } }
-
 /* Footer */
 #footer {
   -moz-transition: opacity 0.5s ease-in-out;
@@ -853,11 +817,10 @@ button,
   transition: opacity 0.5s ease-in-out;
   bottom: 4em;
   color: rgba(255, 255, 255, 0.5);
-  /* left: 4em; */
   opacity: 0.5;
   text-align: center;
-  /* position: absolute;  */
-  margin-top: 7em;
+  /* position: relative;  */
+  margin-top: 5em;
   margin-left: auto;
   margin-right: auto;}
   #footer .teks{
@@ -887,21 +850,22 @@ button,
   @media screen and (max-width: 1680px) {
     #footer {
       bottom: 3.5em;
-      /* left: 3.5em; */
+      margin-top: 4em;
      } }
   @media screen and (max-width: 736px) {
     #footer {
       bottom: 2em;
-      left: 2em; } }
+      margin-top: 2em;
+    } }
   @media screen and (max-width: 360px) {
     #footer {
       bottom: 1.25em;
-      left: 1.25em; } }
+      margin-top: 0;
+    } }
   @media screen and (max-height: 640px) {
     #footer {
       bottom: auto;
       left: auto;
-      margin: 1em 0 0 0;
       position: relative; } }
 
 #foto{
